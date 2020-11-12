@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 namespace Invector.vCharacterController
 {
@@ -50,7 +50,8 @@ namespace Invector.vCharacterController
         protected vHeadTrack headTrack;
 
         protected bool lastRotateWithCamera;
-        private vControlAimCanvas _controlAimCanvas;
+        //private vControlAimCanvas _controlAimCanvas;
+        protected vControlAimCanvas _controlAimCanvas;
         internal GameObject aimAngleReference;
 
         private Vector3 ikRotationOffset;
@@ -159,7 +160,8 @@ namespace Invector.vCharacterController
         }
         #endregion
 
-        private bool _ignoreIKFromAnimator;
+        //private bool _ignoreIKFromAnimator;
+        protected bool _ignoreIKFromAnimator;
 
         private bool IsIgnoreIK
         {
@@ -179,7 +181,8 @@ namespace Invector.vCharacterController
             }
         }
 
-        public vControlAimCanvas controlAimCanvas
+        //public vControlAimCanvas controlAimCanvas
+        public virtual vControlAimCanvas controlAimCanvas
         {
             get
             {

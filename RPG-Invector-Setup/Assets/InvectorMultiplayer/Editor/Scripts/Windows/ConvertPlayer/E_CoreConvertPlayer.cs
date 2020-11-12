@@ -314,7 +314,7 @@ namespace CBGames.Editors
             {
                 CB_COMP_SyncPlayer(target, ref log);
             }
-/*            #region LadderAction
+            #region LadderAction
             if (!target.GetComponent<MP_vLadderAction>())
             {
                 vLadderAction org = target.GetComponent<vLadderAction>();
@@ -322,7 +322,7 @@ namespace CBGames.Editors
                 E_Helpers.CopyComponentValues(org, newComp);
                 DestroyImmediate(org);
             }
-            #endregion*/
+            #endregion
             //if (!E_PlayerEvents.HasUnityEvent(target.GetComponent<vLadderAction>().OnEnterLadder, "EnterLadder", target.GetComponent<SyncPlayer>()))
             //{
             //    if (log != null) log.Add("Adding 'EnterLadder' event to vLadderAction's 'OnEnterLadder' unityEvent.");

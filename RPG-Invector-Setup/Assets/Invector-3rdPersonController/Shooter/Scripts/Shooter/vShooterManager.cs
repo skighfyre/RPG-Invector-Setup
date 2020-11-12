@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 namespace Invector.vShooter
@@ -110,7 +110,8 @@ namespace Invector.vShooter
         private Animator animator;
         private int totalAmmo;
         private int secundaryTotalAmmo;
-        private bool usingThirdPersonController; 
+        //private bool usingThirdPersonController;
+        protected bool usingThirdPersonController;
         private float hipfirePrecisionAngle;
         private float hipfirePrecision;
         internal bool isReloadingWeapon;

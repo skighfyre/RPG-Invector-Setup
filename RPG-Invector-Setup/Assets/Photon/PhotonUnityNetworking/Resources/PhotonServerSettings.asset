@@ -39,6 +39,60 @@ MonoBehaviour:
   - DestroySpaceship
   - Fire
   - RespawnSpaceship
+  - CrossFade
+  - CrossFadeInFixedTime
+  - FloatInvoke
+  - GameObjectInvoke
+  - GenericSync_SetPosRot
+  - GenericSync_SetTrigger
+  - InvokeNoInputEvent
+  - Item_NetworkDestroy
+  - MasterClientInstantiate
+  - MeleeManager_ReceiveSetLeftWeapon
+  - MeleeManager_ReceiveSetRightWeapon
+  - NetworkCollect
+  - NetworkDestroySelf
+  - NetworkEnterLadder
+  - NetworkExitLadder
+  - NetworkInstantiate
+  - NetworkJump
+  - NetworkOnPressInput
+  - NetworkOnReceiveDamage
+  - NetworkPlayerPlayAnimation
+  - NetworkSceneCollected
+  - NetworkSetActive
+  - PlayerDropItem
+  - ReceiveDamage
+  - ResetTriggers
+  - SendDamage
+  - SendNetworkBreakObject
+  - SendToScene
+  - SetActiveRagdoll
+  - SetPositionRotation
+  - SetTeam
+  - SetTriggers
+  - UpdateEntrancePoint
+  - AnimatorActionState
+  - GenericAction_EndAction
+  - DestroyArrow
+  - LoadIKAdjustCatagory
+  - PullTrigger
+  - SetAnimatorLayerWeights
+  - SetArrowPositionRotation
+  - ShooterWeaponEmptyClip
+  - ShooterWeaponOnChangerPowerCharger
+  - ShooterWeaponOnDisableAim
+  - ShooterWeaponOnEnableAim
+  - ShooterWeaponOnFinishAmmo
+  - ShooterWeaponOnFinishReload
+  - ShooterWeaponOnFullPower
+  - ShooterWeaponReload
+  - ShooterWeaponShot
+  - ShooterWeaponShotWithPosition
+  - SyncTriggerEnter
+  - SyncTriggerExit
+  - vShooterManager_ReceiveSetLeftWeapon
+  - vShooterManager_ReceiveSetRightWeapon
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 0

@@ -793,9 +793,9 @@ namespace CBGames.Core
             yield return new WaitForEndOfFrame();
 
             string json = _cachedData.inventory.items;
-/*            #region InvectorModification
+            #region InvectorModification
             vSaveLoadInventory.LoadInventory(player.gameObject.GetComponent<vItemManager>(), json);
-            #endregion*/
+            #endregion
             _inventoryLoading = false;
         }
         #endregion

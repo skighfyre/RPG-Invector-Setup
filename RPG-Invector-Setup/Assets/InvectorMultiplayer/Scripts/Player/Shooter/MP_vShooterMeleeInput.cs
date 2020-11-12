@@ -1,4 +1,3 @@
-/*
 using CBGames.Core;
 using CBGames.Objects;
 using CBGames.Player;
@@ -615,4 +614,3 @@ public class MP_vShooterMeleeInput : vShooterMeleeInput, IPunObservable
     }
     #endregion
 }
-*/

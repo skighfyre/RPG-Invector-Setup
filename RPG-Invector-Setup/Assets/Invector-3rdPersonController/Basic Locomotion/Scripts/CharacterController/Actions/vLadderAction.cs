@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace Invector.vCharacterController.vActions
@@ -107,7 +107,8 @@ namespace Invector.vCharacterController.vActions
             }
         }
 
-        void TriggerEnterLadder()
+        //void TriggerEnterLadder()
+        protected virtual void TriggerEnterLadder()
         {
             if (debugMode) Debug.Log("Enter Ladder");
             
@@ -252,7 +253,8 @@ namespace Invector.vCharacterController.vActions
             tpInput.cc.currentStaminaRecoveryDelay = 0.25f;    // delay to start recovery stamina
         }
 
-        void ExitLadderInput()
+        //void ExitLadderInput()
+        protected virtual void ExitLadderInput()
         {
             if (!isUsingLadder) return;
             if (tpInput.cc.baseLayerInfo.IsName("EnterLadderTop") || tpInput.cc.baseLayerInfo.IsName("EnterLadderBottom")) return;

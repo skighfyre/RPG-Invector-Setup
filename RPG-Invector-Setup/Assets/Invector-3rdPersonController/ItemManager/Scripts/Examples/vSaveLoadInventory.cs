@@ -1,4 +1,4 @@
-﻿using Invector.vCharacterController;
+using Invector.vCharacterController;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -75,9 +75,11 @@ namespace Invector.vItemManager
         /// Load inventory items and occupied equipSlots
         /// </summary>
         /// <param name="itemManager"></param>
-        public static void LoadInventory(this vItemManager itemManager)
+        //public static void LoadInventory(this vItemManager itemManager)
+        public static void LoadInventory(this vItemManager itemManager, string jsonData = null)
         {
-            string json = LoadInventoryJasonText();
+            //string json = LoadInventoryJasonText();
+            string json = (string.IsNullOrEmpty(jsonData)) ? LoadInventoryJasonText() : jsonData;
 
             if (!string.IsNullOrEmpty(json))
             {

@@ -703,6 +703,7 @@ GameObject:
   - component: {fileID: 114963231600105842}
   - component: {fileID: 114630740814216480}
   - component: {fileID: 114305072012467408}
+  - component: {fileID: -6323874215957135688}
   m_Layer: 11
   m_Name: ArrowProjectile
   m_TagString: Untagged
@@ -792,7 +793,19 @@ MonoBehaviour:
   destroyOnCast: 1
   onPassDamage:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -6323874215957135688}
+        m_TargetAssemblyTypeName: CBGames.Objects.MP_Projectile, Assembly-CSharp
+        m_MethodName: TeamDamageCheck
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onCastCollider:
     m_PersistentCalls:
       m_Calls:
@@ -1054,6 +1067,18 @@ MonoBehaviour:
   alignToNormal: 0
   penetration: 0
   debugPenetration: 0
+--- !u!114 &-6323874215957135688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726370018232204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc7fcb01b0531254b8171844d2ea649b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1756864374068526
 GameObject:
   m_ObjectHideFlags: 0

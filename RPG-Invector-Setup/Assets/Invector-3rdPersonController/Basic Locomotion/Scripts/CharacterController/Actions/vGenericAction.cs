@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 
 namespace Invector.vCharacterController.vActions
@@ -39,7 +39,8 @@ namespace Invector.vCharacterController.vActions
         private float _currentInputDelay;
         private Vector3 _screenCenter;
         private float timeInTrigger;
-        private float animationBehaviourDelay;
+        //private float animationBehaviourDelay;
+        protected float animationBehaviourDelay;
 
         protected virtual Vector3 screenCenter
         {

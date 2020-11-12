@@ -30,6 +30,11 @@ TagManager:
   - CoverPoint
   - Interactable
   - AIAction
+  - SpawnPoint
+  - OtherPlayer
+  - Bullet
+  - LoadPoint
+  - RespawnPoint
   layers:
   - Default
   - TransparentFX

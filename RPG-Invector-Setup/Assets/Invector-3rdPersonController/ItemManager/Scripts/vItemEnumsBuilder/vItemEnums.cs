@@ -5,10 +5,9 @@ namespace Invector.vItemManager {
        [Description("Melee")] MeleeWeapon=1,
        [Description("Shooter")] ShooterWeapon=2,
        [Description("(VALUE)")] Ammo=3,
-       [Description("")] Archery=4,
+       [Description("Spell")] Archery=4,
        [Description("")] Builder=5,
-       [Description("")] CraftingMaterials=6,
-       [Description("")] Defense=7
+       [Description("")] Defense=6
      }
      public enum vItemAttributes {
        [Description("")] Health=0,

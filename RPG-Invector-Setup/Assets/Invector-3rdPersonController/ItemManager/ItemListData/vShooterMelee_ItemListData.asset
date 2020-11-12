@@ -51,9 +51,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Sniper Ammo
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 19
   description: 
   type: 3
@@ -62,7 +59,8 @@ MonoBehaviour:
   maxStack: 100
   amount: 0
   originalObject: {fileID: 0}
-  dropObject: {fileID: 154806, guid: 7eb4296630a683045b816e7d7816e5cd, type: 3}
+  dropObject: {fileID: 2540359038972133402, guid: dc4f41e3330928645a6861f8f689e92c,
+    type: 3}
   attributes: []
   isInEquipArea: 0
   destroyAfterUse: 0
@@ -90,9 +88,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: RPG Ammo
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 18
   description: 
   type: 3
@@ -101,7 +96,8 @@ MonoBehaviour:
   maxStack: 100
   amount: 0
   originalObject: {fileID: 0}
-  dropObject: {fileID: 138756, guid: 4f038aa3db9cf9d4cace8c95a2c62f18, type: 3}
+  dropObject: {fileID: 5383516650487492725, guid: c4c16e5d9ec2a624dad13996a578a518,
+    type: 3}
   attributes: []
   isInEquipArea: 0
   destroyAfterUse: 0
@@ -129,9 +125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Handgun Ammo
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 14
   description: 
   type: 3
@@ -140,7 +133,8 @@ MonoBehaviour:
   maxStack: 100
   amount: 0
   originalObject: {fileID: 0}
-  dropObject: {fileID: 115092, guid: b937b1c35b810f8439e6b1df783cb32b, type: 3}
+  dropObject: {fileID: 1458372813117773794, guid: b2dc949b7d807654a8cc17d384ca8b70,
+    type: 3}
   attributes: []
   isInEquipArea: 0
   destroyAfterUse: 0
@@ -168,9 +162,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: RPG
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 16
   description: Very destructive
   type: 2
@@ -178,8 +169,10 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 147976, guid: 490b027b4bc17844c86dfb0e3f50ba97, type: 3}
-  dropObject: {fileID: 170868, guid: 29c64441cf150e1478de24e3252446ec, type: 3}
+  originalObject: {fileID: 3603156755781543988, guid: a8539aa0ee0bedc4a8551eec6acc9347,
+    type: 3}
+  dropObject: {fileID: 2497164274009162728, guid: 0484a7bed2fd8f745be2952f7e1db902,
+    type: 3}
   attributes:
   - name: 2
     value: 85
@@ -215,9 +208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Sniper
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 15
   description: Attached with a scope
   type: 2
@@ -225,8 +215,10 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 109168, guid: c9d537197cc153745a468a97ec00241f, type: 3}
-  dropObject: {fileID: 150024, guid: b13b1a669dda56f4cbd8fb0d831eec76, type: 3}
+  originalObject: {fileID: 8370142603629355933, guid: ce0a0063828017345882ad0ca56e9fb6,
+    type: 3}
+  dropObject: {fileID: 4495495735158406208, guid: ac1d74bc1a6fdab439cd8afed898ea38,
+    type: 3}
   attributes:
   - name: 2
     value: 45
@@ -262,9 +254,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Shotgun Shells
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 17
   description: Shotgun Ammo
   type: 3
@@ -273,7 +262,8 @@ MonoBehaviour:
   maxStack: 100
   amount: 0
   originalObject: {fileID: 0}
-  dropObject: {fileID: 133398, guid: 774e07b04df89da44ba1bc3922c1ebee, type: 3}
+  dropObject: {fileID: 608790545172524460, guid: 392b6b309bd83954ab303330a59621ee,
+    type: 3}
   attributes: []
   isInEquipArea: 0
   destroyAfterUse: 0
@@ -301,9 +291,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Shotgun
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 12
   description: Tactical Shotgun
   type: 2
@@ -311,8 +298,10 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 136552, guid: e53efed3927a7254aa010f9c6752223c, type: 3}
-  dropObject: {fileID: 121418, guid: 763836da888842349a25cd7daf28a752, type: 3}
+  originalObject: {fileID: 2386782424027285315, guid: b4acc8aae5484c940a305e13f9cee638,
+    type: 3}
+  dropObject: {fileID: 1602825527049218231, guid: 1739bb9f0c0a9a040ac4bac47166d761,
+    type: 3}
   attributes:
   - name: 2
     value: 50
@@ -348,9 +337,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Rifle Ammo
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 13
   description: 
   type: 3
@@ -359,7 +345,8 @@ MonoBehaviour:
   maxStack: 100
   amount: 0
   originalObject: {fileID: 0}
-  dropObject: {fileID: 188466, guid: a42f47c5b82df4f4d8fa88ad8a6f90b7, type: 3}
+  dropObject: {fileID: 4798882870304751737, guid: 6ed33fe570b189947bc4907edc4a2a0b,
+    type: 3}
   attributes: []
   isInEquipArea: 0
   destroyAfterUse: 0
@@ -387,9 +374,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Great Shield
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 9
   description: 'Great  Shield
 
@@ -403,7 +387,8 @@ MonoBehaviour:
   amount: 0
   originalObject: {fileID: 1000012874595254, guid: d4ca9135af96d5142987a1f1427b099a,
     type: 3}
-  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  dropObject: {fileID: 296273745737676785, guid: 3d1b0f4ced5474b4f83111ef8cfd1553,
+    type: 3}
   attributes:
   - name: 3
     value: 0
@@ -443,9 +428,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Short Katana
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 1
   description: Melee Weapon
   type: 1
@@ -455,7 +437,8 @@ MonoBehaviour:
   amount: 0
   originalObject: {fileID: 1000011247033104, guid: 43ec053b9c111644e80b4ddb5f535508,
     type: 3}
-  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  dropObject: {fileID: 296273745737676785, guid: 3d1b0f4ced5474b4f83111ef8cfd1553,
+    type: 3}
   attributes:
   - name: 2
     value: 25
@@ -499,9 +482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Great Sword
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 7
   description: Melee Weapon
   type: 1
@@ -511,7 +491,8 @@ MonoBehaviour:
   amount: 0
   originalObject: {fileID: 1000014209087140, guid: d03b45803e637bb4fb00a1ca9030d66e,
     type: 3}
-  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  dropObject: {fileID: 296273745737676785, guid: 3d1b0f4ced5474b4f83111ef8cfd1553,
+    type: 3}
   attributes:
   - name: 2
     value: 30
@@ -555,9 +536,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Great Katana
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 8
   description: Melee Weapon
   type: 1
@@ -567,7 +545,8 @@ MonoBehaviour:
   amount: 0
   originalObject: {fileID: 1000013423493360, guid: 6bbee781522ce5243a02bf72cd914cf5,
     type: 3}
-  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  dropObject: {fileID: 296273745737676785, guid: 3d1b0f4ced5474b4f83111ef8cfd1553,
+    type: 3}
   attributes:
   - name: 2
     value: 25
@@ -611,9 +590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Assault Rifle
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 11
   description: Attached with a Scope
   type: 2
@@ -621,8 +597,10 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 130016, guid: 0aa8a1542200b3f4a978ba11eeb1ec1b, type: 3}
-  dropObject: {fileID: 120964, guid: d514a70d9dfd1ec459bbec7c9799555a, type: 3}
+  originalObject: {fileID: 6917882323346917405, guid: 1bf11a045fb4eb3408758086ed1f0ed2,
+    type: 3}
+  dropObject: {fileID: 2993957421496728976, guid: 21328c175ca5fdb48b2f684ed25e7319,
+    type: 3}
   attributes:
   - name: 2
     value: 25
@@ -666,9 +644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Small Shield
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 6
   description: 'Small Shield
 
@@ -680,7 +655,8 @@ MonoBehaviour:
   amount: 0
   originalObject: {fileID: 1000010116632662, guid: 2232bbcc5a195274c9744c2c6352e910,
     type: 3}
-  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  dropObject: {fileID: 296273745737676785, guid: 3d1b0f4ced5474b4f83111ef8cfd1553,
+    type: 3}
   attributes:
   - name: 3
     value: 0
@@ -720,9 +696,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Handgun
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 10
   description: Semi-Automatic Pistol
   type: 2
@@ -730,8 +703,10 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 170828, guid: a0ef3c70b27799d409935f45a6537bb0, type: 3}
-  dropObject: {fileID: 199660, guid: 38ebe90b46d37bd47822899bd47a318a, type: 3}
+  originalObject: {fileID: 1824925445253709952, guid: 429ddd2bf1821fb49843605dd7cb8084,
+    type: 3}
+  dropObject: {fileID: 1895703910123539289, guid: 9fa2fb0e1f76ab54688439ecf0fa3a60,
+    type: 3}
   attributes:
   - name: 2
     value: 36
@@ -767,13 +742,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Health Up Potion
   m_EditorClassIdentifier: 
-  itemsToCraft:
-  - item: {fileID: 0}
-    amount: 3
-  - item: {fileID: 0}
-    amount: 1
-  canCraft: 1
-  price: 0
   id: 5
   description: Increases the MaxHealth
   type: 0
@@ -782,7 +750,8 @@ MonoBehaviour:
   maxStack: 99
   amount: 0
   originalObject: {fileID: 0}
-  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  dropObject: {fileID: 296273745737676785, guid: 3d1b0f4ced5474b4f83111ef8cfd1553,
+    type: 3}
   attributes:
   - name: 7
     value: 20
@@ -814,9 +783,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Axe
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 0
-  price: 0
   id: 0
   description: Melee Weapon
   type: 1
@@ -826,7 +792,8 @@ MonoBehaviour:
   amount: 0
   originalObject: {fileID: 1000010725870802, guid: 0cf98a7633e41834ba19e8626f1ceadc,
     type: 3}
-  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  dropObject: {fileID: 296273745737676785, guid: 3d1b0f4ced5474b4f83111ef8cfd1553,
+    type: 3}
   attributes:
   - name: 3
     value: 35
@@ -870,13 +837,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Stamina Up Potion
   m_EditorClassIdentifier: 
-  itemsToCraft:
-  - item: {fileID: 0}
-    amount: 1
-  - item: {fileID: 0}
-    amount: 3
-  canCraft: 1
-  price: 0
   id: 4
   description: Increases the MaxStamina
   type: 0
@@ -885,7 +845,8 @@ MonoBehaviour:
   maxStack: 99
   amount: 0
   originalObject: {fileID: 0}
-  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  dropObject: {fileID: 296273745737676785, guid: 3d1b0f4ced5474b4f83111ef8cfd1553,
+    type: 3}
   attributes:
   - name: 8
     value: 20
@@ -917,9 +878,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Short Sword
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 3
   description: Melee Weapon
   type: 1
@@ -929,7 +887,8 @@ MonoBehaviour:
   amount: 0
   originalObject: {fileID: 1000012884940116, guid: 5dc53aa14e78ec54fbf2281c1abb7f47,
     type: 3}
-  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  dropObject: {fileID: 296273745737676785, guid: 3d1b0f4ced5474b4f83111ef8cfd1553,
+    type: 3}
   attributes:
   - name: 2
     value: 15
@@ -973,13 +932,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Health Potion
   m_EditorClassIdentifier: 
-  itemsToCraft:
-  - item: {fileID: 0}
-    amount: 3
-  - item: {fileID: 0}
-    amount: 1
-  canCraft: 1
-  price: 0
   id: 2
   description: Recover Health
   type: 0
@@ -988,7 +940,8 @@ MonoBehaviour:
   maxStack: 10
   amount: 0
   originalObject: {fileID: 0}
-  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  dropObject: {fileID: 296273745737676785, guid: 3d1b0f4ced5474b4f83111ef8cfd1553,
+    type: 3}
   attributes:
   - name: 0
     value: 25
@@ -1020,9 +973,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: vRifle Shooter Edition
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 22
   description: Special Edition attached with Grenade Launcher
   type: 2
@@ -1030,9 +980,10 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 1262530654451378, guid: 33cb40cfd0904344d8306765a5600135,
+  originalObject: {fileID: 6203778081261026242, guid: 5eb2949d36c3e994cb9b057ad9ef040d,
     type: 3}
-  dropObject: {fileID: 120964, guid: d514a70d9dfd1ec459bbec7c9799555a, type: 3}
+  dropObject: {fileID: 2993957421496728976, guid: 21328c175ca5fdb48b2f684ed25e7319,
+    type: 3}
   attributes:
   - name: 2
     value: 25
@@ -1076,9 +1027,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: KeyCard Red
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 23
   description: Open Red Doors
   type: 0
@@ -1115,9 +1063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Arrows
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 21
   description: Arrows to use with Bow
   type: 3
@@ -1126,7 +1071,8 @@ MonoBehaviour:
   maxStack: 100
   amount: 0
   originalObject: {fileID: 0}
-  dropObject: {fileID: 1927582907402528, guid: 3d4a18aad5edd964db61c63dc8c475bb, type: 3}
+  dropObject: {fileID: 7181170833201031139, guid: 82afd0d164be4b4489b744a0440e61d8,
+    type: 3}
   attributes: []
   isInEquipArea: 0
   destroyAfterUse: 0
@@ -1154,9 +1100,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: vBow
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 20
   description: Bow and Arrow
   type: 4
@@ -1166,7 +1109,8 @@ MonoBehaviour:
   amount: 0
   originalObject: {fileID: 1112735122421166, guid: adec6ca436555694f9b67251716d6768,
     type: 3}
-  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  dropObject: {fileID: 296273745737676785, guid: 3d1b0f4ced5474b4f83111ef8cfd1553,
+    type: 3}
   attributes:
   - name: 6
     value: 0

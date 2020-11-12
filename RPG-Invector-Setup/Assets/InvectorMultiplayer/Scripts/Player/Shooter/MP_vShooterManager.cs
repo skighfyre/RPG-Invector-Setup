@@ -1,4 +1,3 @@
-/*
 using CBGames.Core;
 using Invector.vItemManager;
 using Invector.vShooter;
@@ -402,4 +401,3 @@ public class MP_vShooterManager : vShooterManager, IPunObservable
     }
     #endregion
 }
-*/
